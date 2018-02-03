@@ -1,0 +1,28 @@
+{
+  "name": "nameboss",
+  "version": "1.0.0",
+  "description": "Automated name management queue.",
+  "main": "server.js",
+  "dependencies": {
+    "dirty": "^1.1.0",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/caseyfw/nameboss.git"
+  },
+  "keywords": [
+    "queue"
+  ],
+  "author": "Casey Fulton <casey@caseyfulton.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caseyfw/nameboss/issues"
+  },
+  "homepage": "https://github.com/caseyfw/nameboss#readme"
+}
