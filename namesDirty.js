@@ -4,7 +4,6 @@ var db = dirty('names.db');
 exports.all = (callback) => {
   let names = db.get('names');
   let nextId = db.get('nextId');
-
   callback(names.splice(nextId));
 };
 
@@ -24,4 +23,8 @@ exports.pop = (callback) => {
 exports.unpop = (callback) => {
   db.set('nextId', db.get('nextId') - 1);
   callback(db.get('names')[db.get('nextId')]);
+};
+
+exports.add = () => {
+  db.add('names', db.get('names').push(req.params.name));
 };
