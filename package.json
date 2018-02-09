@@ -12,15 +12,13 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js || node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/caseyfw/nameboss.git"
   },
-  "keywords": [
-    "queue"
-  ],
+  "keywords": ["queue"],
   "author": "Casey Fulton <casey@caseyfulton.com>",
   "license": "MIT",
   "bugs": {
